@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:stretchColumns="*"
+    tools:context=".userlogin">
+<TableRow
+
+    >
+
+    <TextView
+        android:text="@string/reg"
+        android:textSize="24dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginRight="170dp"
+        android:layout_weight="0"
+        android:layout_span="2"
+        >
+    </TextView>
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:src="@drawable/back"
+        android:background="@drawable/back_bu"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="1000dp"
+        android:contentDescription="@string/description"
+
+        ></androidx.appcompat.widget.AppCompatImageButton>
+
+</TableRow>
+    <TableRow>
+        <androidx.appcompat.widget.AppCompatEditText
+            android:text="@string/names"
+            android:layout_height="48dp"
+            android:textColor="@color/grey"
+            android:background="@drawable/text_back"
+            android:textSize="18dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="170dp"
+            >
+        </androidx.appcompat.widget.AppCompatEditText>
+    </TableRow>
+    <TableRow>
+        <androidx.appcompat.widget.AppCompatEditText
+            android:text="@string/adr"
+            android:layout_height="48dp"
+            android:textColor="@color/grey"
+            android:background="@drawable/text_back"
+            android:textSize="18dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="16dp"
+            >
+        </androidx.appcompat.widget.AppCompatEditText>
+    </TableRow>
+    <TableRow>
+        <androidx.appcompat.widget.AppCompatEditText
+            android:text="@string/pas"
+            android:layout_height="48dp"
+            android:textColor="@color/grey"
+            android:background="@drawable/text_back"
+            android:textSize="18dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="16dp"
+            >
+        </androidx.appcompat.widget.AppCompatEditText>
+    </TableRow>
+    <TableRow>
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:contentDescription="@string/description"
+            android:src="@drawable/reg"
+            android:background="@drawable/save_button"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="26dp"
+            android:onClick="Reg"
+            >
+        </androidx.appcompat.widget.AppCompatImageButton>
+    </TableRow>
+</TableLayout>

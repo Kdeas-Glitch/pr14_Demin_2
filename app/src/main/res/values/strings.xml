@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">pr14_Demin_2</string>
+    <string name="Zag">Заголовок Задачи</string>
+    <string name="time">16:30</string>
+    <string name="date">29.04.2025</string>
+    <string name="reg">Регистрация</string>
+    <string name="names">Имя пользователя</string>
+    <string name="adr">Адрес электронной почты</string>
+    <string name="pas">Пароль</string>
+    <string name="description">descr</string>
+</resources>
